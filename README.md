@@ -16,7 +16,7 @@ Our mission: **Secure • Transparent • Resilient**
 - [Contributing](#contributing)
 - [License](#license)
 
--  Workflow Architecture Diagram
+## Workflow Architecture Diagram
 ![Workflow Diagram](assets/workflow.png)
 
 This diagram illustrates the CI/CD pipeline with integrated security scans, automated testing, and deployment safeguards.
