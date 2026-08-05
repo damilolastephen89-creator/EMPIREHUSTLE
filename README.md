@@ -16,7 +16,7 @@ Our mission: **Secure • Transparent • Resilient**
 - [Contributing](#contributing)
 - [License](#license)
 
-  Workflow Architecture Diagram
+-  Workflow Architecture Diagram
 ![Workflow Diagram](assets/workflow.png)
 
 This diagram illustrates the CI/CD pipeline with integrated security scans, automated testing, and deployment safeguards.
@@ -30,10 +30,10 @@ cd EMPIREHUSTLE
 npm install
 npm run test
 
-Badges
-https://github.com/damilolastephen89-creator/EMPIREHUSTLE/actions/workflows/ci.yml/badge.svg  
-https://github.com/damilolastephen89-creator/EMPIREHUSTLE/actions/workflows/security.yml/badge.svg  
-https://img.shields.io/codecov/c/github/damilolastephen89-creator/EMPIREHUSTLE
+## Badges
+![CI Pipeline](https://github.com/damilolastephen89-creator/EMPIREHUSTLE/actions/workflows/ci.yml/badge.svg)
+![Security Checks](https://github.com/damilolastephen89-creator/EMPIREHUSTLE/actions/workflows/security.yml/badge.svg)
+![Coverage](https://img.shields.io/codecov/c/github/damilolastephen89-creator/EMPIREHUSTLE)
 
 Roadmap
 [ ] Add container security scans
