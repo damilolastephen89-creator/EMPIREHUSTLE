@@ -21,6 +21,41 @@ Our mission: **Secure • Transparent • Resilient**
 
 This diagram illustrates the CI/CD pipeline with integrated security scans, automated testing, and deployment safeguards.
 
+## Features
+- 🎨 Responsive design for mobile, tablet, and desktop
+- ⚡ Fast performance with optimized loading
+- 🔒 Security-first approach with CI/CD scans
+- 📰 Content hub for blogs and updates
+- 🛒 E-commerce ready for future expansion
+- 📈 Scalable architecture for growth
+
+## Folder Structure
+empirehustle/
+│
+├── README.md              # Project overview & branding
+├── package.json           # Node.js dependencies
+├── .gitignore             # Ignore unnecessary files
+│
+├── src/                   # Source code
+│   ├── index.js           # Main entry point
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Website pages
+│   └── utils/             # Helper functions
+│
+├── public/                # Static assets
+│   ├── index.html         # Homepage
+│   ├── favicon.ico        # Site icon
+│   └── images/            # Public images
+│
+├── assets/                # Branding & media
+│   ├── logo.png           # Empirehustle logo
+│   ├── fonts/             # Custom fonts
+│   └── styles/            # CSS/SCSS files
+│
+└── config/                # Configuration files
+    ├── db.js              # Database connection
+    └── settings.js        # App settings
+
    Quick Start
 Clone the repository and install dependencies:
 
@@ -29,6 +64,12 @@ git clone https://github.com/damilolastephen89-creator/EMPIREHUSTLE.git
 cd EMPIREHUSTLE
 npm install
 npm run test
+
+## Usage Examples
+
+### Run the development server
+```bash
+npm start
 
 ## Badges
 ![CI Pipeline](https://github.com/damilolastephen89-creator/EMPIREHUSTLE/actions/workflows/ci.yml/badge.svg)
@@ -51,5 +92,11 @@ Open a Pull Request
 License
 This project is licensed under the MIT License.
 See the [Looks like the result wasn't safe to show. Let's switch things up and try something else!] file for details.
+
+## Community & Contact
+- 📧 Email: empirehustle@yourdomain.com
+- 📱 Instagram: [@empirehustle](https://instagram.com/empirehustle)
+- 🐦 Twitter: [@empirehustle](https://twitter.com/empirehustle)
+- 🌍 Website: [www.empirehustle.com](https://www.empirehustle.com)
 
 Built with ❤️ by Gbemiga & Community
