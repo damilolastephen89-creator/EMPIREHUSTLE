@@ -1,3 +1,7 @@
+[build]
+  # Adjust this if your site files are in a subfolder like "dist" or "public"
+  publish = "/"
+
 [[plugins]]
   package = "netlify-plugin-a11y"
 
@@ -5,3 +9,4 @@
     checkPaths = ["/index.html"]
     resultMode = "warn"
     timeout = 60000
+
