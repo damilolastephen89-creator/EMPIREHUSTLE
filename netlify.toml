@@ -1,5 +1,4 @@
 [build]
-  # Adjust this if your site files are in a subfolder like "dist" or "public"
   publish = "/"
 
 [[plugins]]
@@ -8,5 +7,6 @@
   [plugins.inputs]
     checkPaths = ["/index.html"]
     resultMode = "warn"
-    timeout = 60000
+    debugMode = true
+
 
