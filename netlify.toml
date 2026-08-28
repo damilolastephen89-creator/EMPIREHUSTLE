@@ -1,5 +1,6 @@
 [build]
-  publish = "/"
+
+  publish = "dist"
 
 [[plugins]]
   package = "netlify-plugin-a11y"
@@ -8,5 +9,6 @@
     checkPaths = ["/index.html"]
     resultMode = "warn"
     debugMode = true
+
 
 
