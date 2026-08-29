@@ -1,11 +1,7 @@
-[build]
-  
-  publish = "/"
+# [[plugins]]
+#   package = "netlify-plugin-a11y"
+#   [plugins.inputs]
+#     checkPaths = ["/index.html"]
+#     resultMode = "warn"
+#     debugMode = true
 
-[[plugins]]
-  package = "netlify-plugin-a11y"
-
-  [plugins.inputs]
-    checkPaths = ["/index.html"]
-    resultMode = "warn"
-    debugMode = true
