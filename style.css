@@ -1,7 +1,21 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ecf0f1; /* soft gray */
+  color: #2c3e50; /* dark slate */
+}
+
 /* Header */
 header {
-  background: #222;
-  color: #fff;
+  background: #2c3e50; /* charcoal blue */
+  color: #ecf0f1; /* soft gray text */
   padding: 20px 0;
   text-align: center;
 }
@@ -20,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #18bc9c; /* teal accent */
   text-decoration: none;
   font-weight: bold;
 }
@@ -41,14 +55,14 @@ section {
 }
 
 h2 {
-  color: #444;
+  color: #2c3e50;
   margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
-  background: #222;
-  color: #fff;
+  background: #2c3e50; /* charcoal blue */
+  color: #ecf0f1; /* soft gray text */
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;
