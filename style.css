@@ -118,3 +118,11 @@ form button {
 form button:hover {
   opacity: 0.9;
 }
+section h2 {
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 15px;
+  line-height: 1.6;
+}
