@@ -61,12 +61,30 @@ h2 {
 
 /* Footer */
 footer {
-  background: #1a1a2e; /* deep navy */
+  background: #1a1a2e; /* deep navy or theme color */
   color: #fff;
   text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
+  padding: 20px 0;
 }
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
 
 .services {
   display: flex;
